@@ -1,0 +1,90 @@
+{
+  "__Templates": {
+    "Work": {
+      "Job_Title": null,
+      "Employer": null,
+      "Boss_Supervisor": null,
+      "Location": null,
+      "Start_Date": null,
+      "End_Date": null,
+      "Duties": null,
+      "Other_Notes": null,
+    },
+    "Education": {
+      "Degree": null,
+      "Major": null,
+      "University": null,
+      "Location": null,
+      "Start_Date": null,
+      "End_Date": null,
+      "Other_Notes": null,
+    },
+    "Other": {},
+    "Skills": {
+      "Skill": null,
+      "Description": null,
+    },
+  },
+  "Work": [
+    {
+      "Job_Title" : "Research Assistant in Bioinformatics Research",
+      "Employer" : "Wheeler Labs at University of Montana",
+      "Boss_Supervisor": "Travis Wheeler",
+      "Location": "Missoula, MT",
+      "Start_Date": "SUMMER 2018",
+      "End_Date": "PRESENT",
+      "Duties": [],
+      "Other_Notes": [],
+      "Tags": []
+    },
+    {
+      "Job_Title" : "Teaching Assistant for Computer Science Dept.",
+      "Employer" : "University of Montana",
+      "Boss_Supervisor": "Travis Wheeler and William Knight",
+      "Location": "Missoula, MT",
+      "Start_Date": "SPRING 2018",
+      "End_Date": "PRESENT",
+      "Duties": [],
+      "Other_Notes": [],
+      "Tags": []
+    },
+    {
+      "Job_Title" : "Web Designer",
+      "Employer" : "Rich Ranch",
+      "Boss_Supervisor": "",
+      "Location": "Seeley Lake, MT",
+      "Start_Date": "SPRING 2010",
+      "End_Date": "PRESENT",
+      "Duties": [],
+      "Other_Notes": [],
+      "Tags": []
+    }
+  ],
+
+  "Education": [
+    {
+      "Degree": "Masters of Computer Science",
+      "Major": "Computer Science",
+      "University": "University of Montana",
+      "Location": "Missoula, MT",
+      "Start_Date": "FALL 2017",
+      "End_Date": "PRESENT",
+      "Other_Notes": [],
+      "Tags": []
+    },
+    {
+      "Degree": "Bachelors of Science in Business",
+      "Major": "Business Management",
+      "University": "University of Montana",
+      "Location": "Missoula, MT",
+      "Start_Date": "FALL 2007",
+      "End_Date": "FALL 2012",
+      "Other_Notes": [],
+      "Tags": []
+    }
+  ],
+
+  "Other": [],
+
+  "Skills": [],
+}

@@ -1,0 +1,39 @@
+html, body {
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(159, 213, 159);
+}
+
+h1 {
+  padding-bottom: 15px;
+}
+
+.my-top-menu {
+  height: 65px;
+  background-color: rgb(6, 34, 4) !important;
+}
+
+main {
+  padding-top: 80px;
+  min-height: 100vh;
+}
+
+footer {
+  background-color: rgb(48, 84, 16);
+  color: rgb(203, 232, 205);
+  min-height: 30px;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+footer ul {
+  text-align: center;
+}
+
+.badge {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
