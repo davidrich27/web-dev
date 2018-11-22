@@ -27,6 +27,7 @@ footer {
   min-height: 30px;
   padding: 10px;
   padding-top: 20px;
+  margin-top: 20px;
 }
 
 footer ul {
@@ -36,4 +37,8 @@ footer ul {
 .badge {
   font-size: 1.2rem;
   margin-bottom: 10px;
+}
+
+.bold {
+  font-weight: bold;
 }

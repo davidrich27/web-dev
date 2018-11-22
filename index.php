@@ -15,7 +15,6 @@
 
 </main><!-- /.container -->
 
-<?php
-  include "template/footer-menu.php";
-  include "template/foot.php";
-?>
+<?php include "template/footer-menu.php"; ?>
+
+<?php include "template/foot.php"; ?>

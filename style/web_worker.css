@@ -3,6 +3,16 @@
 }
 
 .results {
-  background-color: rgb(48, 84, 16);
+  background-color: white;
   min-height: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.types {
+  color: rgb(11, 103, 40);
+}
+
+.weaknesses {
+  color: rgb(96, 16, 16);
 }

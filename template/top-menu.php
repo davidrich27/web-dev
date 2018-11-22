@@ -9,20 +9,22 @@
       <li class="nav-item">
         <a class="nav-link" href="index.php">Home</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="experience.php">Experience</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contact.php">Contact Me</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="interactive_canvas.php">Interactive Canvas</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="noninteractive_canvas.php">Non-Interactive Canvas</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="web_worker.php">Web Worker</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Local Projects
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="contact.php">Contact Me</a>
+          <a class="dropdown-item" href="experience.php">Experience</a>
+          <a class="dropdown-item" href="register_employer.php">For Employers</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="interactive_canvas.php">Interactive Canvas</a>
+          <a class="dropdown-item" href="noninteractive_canvas.php">Non-Interactive Canvas</a>
+          <a class="dropdown-item" href="web_worker.php">Web Worker</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="babylon3d.php">Babylon 3D</a>
+          <a class="dropdown-item" href="phaserio.php">Phaser.io</a>
+        </div>
       </li>
     </ul>
   </div>
