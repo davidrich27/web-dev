@@ -10,10 +10,11 @@ var port = process.env.PORT || 8080;
 
 var json_data = {};
 
+// connection values for
 var con = mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "Winston27!",
+    password: "***",
 });
 
 // Chatroom Socket Listener
@@ -28,7 +29,6 @@ io.on('connection', function(socket){
 
 // Post data to MySQL DB
 app.post('/data_add.php', function (req, res) {
-
     // connect to MySQL Server
     con.connect(function(err) {
       if (err) throw err;
