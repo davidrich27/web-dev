@@ -11,7 +11,7 @@
 
     <div class="row">
       <div class="col-sm-4 text-center">
-        <button id="startBtn" type="button" name="button" class="btn btn-sm btn-primary" onclick="startWorker(w1, '/script/workers/get_data.js')">Start Worker</button>
+        <button id="startBtn" type="button" name="button" class="btn btn-sm btn-primary" onclick="startWorker(w1, '/script/workers/default_worker.js')">Start Worker</button>
       </div>
       <div class="col-sm-4 text-center">
         <button id="requestBtn" type="button" name="button" class="btn btn-sm btn-danger" onclick="fetchWorker(w1, pokemon_url)" disabled="true">Request Worker</button>

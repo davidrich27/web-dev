@@ -24,7 +24,15 @@
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="babylon3d.php">Babylon 3D</a>
           <a class="dropdown-item" href="phaserio.php">Phaser.io</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="chatroom_example.php">Chatroom - Example</a>
+          <a class="dropdown-item" href="chatroom_tutorial.php">Chatroom - Tutorial</a>
+          <a class="dropdown-item" href="form.php">NodeJS->DB Entry Form</a>
+          <a class="dropdown-item" href="chatroom-tutorial.php">NodeJS->DB Contents</a>
         </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="homework.php">Homework</a>
       </li>
     </ul>
   </div>

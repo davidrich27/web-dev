@@ -25,10 +25,10 @@ var createScene = function () {
     var light2 = new BABYLON.PointLight("light2", new BABYLON.Vector3(0, 1, -1), scene);
 
     // Add and manipulate meshes in the scene
-    var scalarXY = 2;
+    var scalarXY = 3;
     var scalarZ = 2;
     var startingZ = 100;
-    var numBases = 60;
+    var numBases = 100;
 
     var material_1 = new BABYLON.StandardMaterial(scene);
     material_1.diffuseColor = new BABYLON.Color3(1.0, 0.2, 0.7);
@@ -36,8 +36,8 @@ var createScene = function () {
     // DNA Helix A
     var spheres_1 = [];
     for (var i=0; i<numBases; i++){
-        var sphere = BABYLON.MeshBuilder.CreateSphere("sphere", 1, scene);
-        sphere.position = new BABYLON.Vector3(Math.cos(i * Math.PI/8) * scalarXY, Math.sin(i * Math.PI/8) * scalarXY, -i * scalarZ + startingZ);
+        var sphere = BABYLON.MeshBuilder.CreateSphere("sphere", 2, scene);
+        sphere.position = new BABYLON.Vector3(Math.cos(i * Math.PI/16) * scalarXY, Math.sin(i * Math.PI/16) * scalarXY, -i * scalarZ + startingZ);
         sphere.material = material_1;
         spheres_1.push(sphere);
     }
@@ -49,7 +49,7 @@ var createScene = function () {
     var spheres_2 = [];
     for (var i=0; i<numBases; i++){
         var sphere = BABYLON.MeshBuilder.CreateSphere("sphere", 1, scene);
-        sphere.position = new BABYLON.Vector3(-Math.cos(i * Math.PI/8) * scalarXY, -Math.sin(i * Math.PI/8) * scalarXY, -i * scalarZ + startingZ);
+        sphere.position = new BABYLON.Vector3(-Math.cos(i * Math.PI/16) * scalarXY, -Math.sin(i * Math.PI/16) * scalarXY, -i * scalarZ + startingZ);
         sphere.material = material_2;
         spheres_2.push(sphere);
     }
@@ -77,7 +77,7 @@ var createScene = function () {
         cylinder.position = BABYLON.Vector3.Center(spheres_1[i].position, spheres_2[i].position);
         cylinder.rotation.x += 0;
         cylinder.rotation.y += 0;
-        cylinder.rotation.z += i * Math.PI/8 + Math.PI/2;
+        cylinder.rotation.z += i * Math.PI/16 + Math.PI/2;
         cylinders.push(cylinder);
     }
 
