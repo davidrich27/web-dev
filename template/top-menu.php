@@ -27,8 +27,8 @@
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="chatroom_example.php">Chatroom - Example</a>
           <a class="dropdown-item" href="chatroom_tutorial.php">Chatroom - Tutorial</a>
-          <a class="dropdown-item" href="form.php">NodeJS->DB Entry Form</a>
-          <a class="dropdown-item" href="chatroom-tutorial.php">NodeJS->DB Contents</a>
+          <a class="dropdown-item" href="data_add.php">NodeJS->DB Entry Form</a>
+          <a class="dropdown-item" href="data_inspect.php">NodeJS->DB Contents</a>
         </div>
       </li>
       <li class="nav-item">
