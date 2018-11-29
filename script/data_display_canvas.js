@@ -17,6 +17,10 @@ var w1 = {
   data: null
 };
 
+var pallete = {
+
+}
+
 // Starts up new worker instance
 function startWorker(worker_var, worker_script) {
     if(typeof(Worker) !== "undefined") {
@@ -51,17 +55,29 @@ function fetchWorker(worker_var, arg) {
 function outputPokeData(data) {
   workerUpdate("Data has been recieved.")
 
-  // Count number of each type
+  // Count number of each type (dual type increments both types)
   data['pokemon'].forEach(function(pokemon, index) {
-    if (isNaN(type_data[pokemon['type']])) {
-      type_data[pokemon['type']] = 0;
+    var types = pokemon['type'];
+    for (var type in types) {
+        type = types[type]
+        if (isNaN(type_data[type])) {
+          type_data[type] = 0;
+        }
+        type_data[type] += 1;
     }
-    type_data[pokemon['type']] += 1;
   });
 
-  drawPieData(type_data);
+  // assign random color to each type
+  for (var type in type_data) {
+      var r = Math.floor(Math.random() * 255);
+      var g = Math.floor(Math.random() * 255);
+      var b = Math.floor(Math.random() * 255);
+      pallette[type] = `rgb(${r},${g},${b})`;
+  }
 
-  console.log("Worker Data has been displayed.  Worker is still running...");
+  console.log(JSON.stringify(type_data));
+
+  drawPieData(type_data);
 
   stopWorker(worker_var);
 }

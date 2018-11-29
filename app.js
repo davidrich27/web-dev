@@ -10,7 +10,7 @@ var port = process.env.PORT || 8080;
 
 var json_data = {};
 
-// connection values for
+// connection values
 var con = mysql.createConnection({
     host: "localhost",
     user: "root",

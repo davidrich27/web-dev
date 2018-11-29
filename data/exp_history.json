@@ -1,160 +1,155 @@
 {
-  "_Templates": [
-    {
-      "Work": {
-        "Job_Title": null,
-        "Company": null,
-        "Boss_Supervisor": null,
-        "Location": null,
-        "Date": null,
-        "Duties": null,
-        "_Notes": null,
-        "_Tags": null
-      },
-      "Education": {
-        "Degree": null,
-        "Major": null,
-        "School": null,
-        "Location": null,
-        "Date": null,
-        "_Notes": null,
-        "_Tags": null
-      },
-      "Projects": {
-        "Name": null,
-        "Description": null,
-        "URL": null,
-        "_Notes": null,
-        "_Tags": null
-      },
-      "Other": {},
-      "Skills": {
-        "Skill": null,
-        "Description": null,
-        "_Notes": null,
-        "_Tags": null
-      }
-    }
-  ],
+    "_Templates": [{
+        "Work": {
+            "Job_Title": null,
+            "Company": null,
+            "Boss_Supervisor": null,
+            "Location": null,
+            "Date": null,
+            "Duties": null,
+            "_Notes": null,
+            "_Tags": null
+        },
+        "Education": {
+            "Degree": null,
+            "Major": null,
+            "School": null,
+            "Location": null,
+            "Date": null,
+            "_Notes": null,
+            "_Tags": null
+        },
+        "Projects": {
+            "Name": null,
+            "Description": null,
+            "URL": null,
+            "_Notes": null,
+            "_Tags": null
+        },
+        "Other": {},
+        "Skills": {
+            "Skill": null,
+            "Description": null,
+            "_Notes": null,
+            "_Tags": null
+        }
+    }],
 
-  "_AllTags": ["Computer Science", "Education", "Research", "Business"],
+    "_AllTags": ["Computer Science", "Education", "Research", "Business"],
 
-  "Work": [
-      {
-        "Job_Title" : "Research Assistant in Bioinformatics Research",
-        "Company" : "Wheeler Labs at University of Montana",
-        "Boss_Supervisor": "Travis Wheeler",
-        "Location": "Missoula, MT",
-        "Date": "Summer 2018 - Present",
-        "Duties": [],
-        "_Notes": [],
-        "_Tags": ["Computer Science", "Education", "Research"]
-      },
-      {
-        "Job_Title" : "Teaching Assistant for Computer Science Dept.",
-        "Company" : "University of Montana",
-        "Boss_Supervisor": "Travis Wheeler and William Knight",
-        "Location": "Missoula, MT",
-        "Date": "Spring 2018 - Present",
-        "Duties": [],
-        "_Notes": [],
-        "_Tags": ["Computer Science", "Education"]
-      },
-      {
-        "Job_Title" : "Web Designer",
-        "Company" : "Rich Ranch",
-        "Boss_Supervisor": "Self",
-        "Location": "Seeley Lake, MT",
-        "Date": "Spring 2010 - Present",
-        "Duties": [],
-        "_Notes": [],
-        "_Tags": ["Computer Science", "Business"]
-      },
-      {
-        "Job_Title" : "Guide & Mule Packer",
-        "Company" : "Rich Ranch",
-        "Boss_Supervisor": "Jack Rich",
-        "Location": "Seeley Lake, MT",
-        "Date": "Seasonal 2004 - 2017",
-        "Duties": [],
-        "_Notes": [],
-        "_Tags": ["Business"]
-      },
-      {
-        "Job_Title" : "Construction Laborer",
-        "Company" : "Dixon Construction",
-        "Boss_Supervisor": "Tim Dixon",
-        "Location": "Salem, Oregon",
-        "Date": "Winter - Spring 2016",
-        "Duties": [],
-        "_Notes": [],
-        "_Tags": ["Business"]
-      }
+    "Work": [{
+            "Job_Title": "Research Assistant in Bioinformatics Research",
+            "Company": "Wheeler Labs at University of Montana",
+            "Boss_Supervisor": "Travis Wheeler",
+            "Location": "Missoula, MT",
+            "Date": "Summer 2018 - Present",
+            "Duties": [],
+            "_Notes": [],
+            "_Tags": ["Computer Science", "Education", "Research"]
+        },
+        {
+            "Job_Title": "Teaching Assistant for Computer Science Dept.",
+            "Company": "University of Montana",
+            "Boss_Supervisor": "Travis Wheeler and William Knight",
+            "Location": "Missoula, MT",
+            "Date": "Spring 2018 - Present",
+            "Duties": [],
+            "_Notes": [],
+            "_Tags": ["Computer Science", "Education"]
+        },
+        {
+            "Job_Title": "Web Designer",
+            "Company": "Rich Ranch",
+            "Boss_Supervisor": "Self",
+            "Location": "Seeley Lake, MT",
+            "Date": "Spring 2010 - Present",
+            "Duties": [],
+            "_Notes": [],
+            "_Tags": ["Computer Science", "Business"]
+        },
+        {
+            "Job_Title": "Guide & Mule Packer",
+            "Company": "Rich Ranch",
+            "Boss_Supervisor": "Jack Rich",
+            "Location": "Seeley Lake, MT",
+            "Date": "Seasonal 2004 - 2017",
+            "Duties": [],
+            "_Notes": [],
+            "_Tags": ["Business"]
+        },
+        {
+            "Job_Title": "Construction Laborer",
+            "Company": "Dixon Construction",
+            "Boss_Supervisor": "Tim Dixon",
+            "Location": "Salem, Oregon",
+            "Date": "Winter - Spring 2016",
+            "Duties": [],
+            "_Notes": [],
+            "_Tags": ["Business"]
+        }
     ],
 
-    "Education": [
-      {
-        "Degree": "Masters of Computer Science",
-        "Major": "Computer Science",
-        "School": "University of Montana",
-        "Location": "Missoula, MT",
-        "Date": "Fall 2017 - Present",
-        "_Notes": [],
-        "_Tags": ["Computer Science", "Education"]
-      },
-      {
-        "Degree": "Bachelors of Science in Business",
-        "Major": "Business Management",
-        "School": "University of Montana",
-        "Location": "Missoula, MT",
-        "Date": "Fall 2007 - Fall 2012",
-        "_Notes": [],
-        "_Tags": ["Business", "Education"]
-      },
-      {
-        "Degree": "High School Diploma",
-        "Major": "General Education",
-        "School": "Seeley-Swan High School",
-        "Location": "Seeley Lake, MT",
-        "Date": "Fall 2003 - Spring 2007",
-        "_Notes": [],
-        "_Tags": ["Education"]
-      }
+    "Education": [{
+            "Degree": "Masters of Computer Science",
+            "Major": "Computer Science",
+            "School": "University of Montana",
+            "Location": "Missoula, MT",
+            "Date": "Fall 2017 - Present",
+            "_Notes": [],
+            "_Tags": ["Computer Science", "Education"]
+        },
+        {
+            "Degree": "Bachelors of Science in Business",
+            "Major": "Business Management",
+            "School": "University of Montana",
+            "Location": "Missoula, MT",
+            "Date": "Fall 2007 - Fall 2012",
+            "_Notes": [],
+            "_Tags": ["Business", "Education"]
+        },
+        {
+            "Degree": "High School Diploma",
+            "Major": "General Education",
+            "School": "Seeley-Swan High School",
+            "Location": "Seeley Lake, MT",
+            "Date": "Fall 2003 - Spring 2007",
+            "_Notes": [],
+            "_Tags": ["Education"]
+        }
     ],
 
-    "Projects": [
-      {
-        "Name": "Personal Website",
-        "Description": "Personal Resume Website, developed for Client-Side Web Development class at the University of Montana.",
-        "URL": "https://github.com/davidrich27/wed_dev",
-        "Date": "Fall 2018",
-        "_Notes": [],
-        "_Tags": ["Computer Science", "Education"]
-      },
-      {
-        "Name": "A Final's Nightmare: A 3-D Platformer",
-        "Description": "3-D Platformer Video Game. Built in Unity and developed for Game Design class at the University of Montana.",
-        "URL": "https://github.com/davidrich27/DataOverSata",
-        "Date": "Fall 2017",
-        "_Notes": [],
-        "_Tags": ["Computer Science", "Education"]
-      },
-      {
-        "Name": "AccountAble Project",
-        "Description": "Accouting Software, developed for Software Science class at the University of Montana.",
-        "URL": "https://github.com/davidrich27/DataOverSata",
-        "Date": "Fall 2017",
-        "_Notes": [],
-        "_Tags": ["Business", "Computer Science", "Education"]
-      },
-      {
-        "Name": "RiverHaus Recordings Business Plan",
-        "Description": "Business Plan, developed for John Ruffatto Business Plan Competition.  Our pitch was a finalists in the competition.",
-        "URL": "https://github.com/davidrich27/wed_dev",
-        "Date": "Fall 2018",
-        "_Notes": [],
-        "_Tags": ["Business", "Education"]
-      }
+    "Projects": [{
+            "Name": "Personal Website",
+            "Description": "Personal Resume Website, developed for Client-Side Web Development class at the University of Montana.",
+            "URL": "https://github.com/davidrich27/wed_dev",
+            "Date": "Fall 2018",
+            "_Notes": [],
+            "_Tags": ["Computer Science", "Education"]
+        },
+        {
+            "Name": "A Final's Nightmare: A 3-D Platformer",
+            "Description": "3-D Platformer Video Game. Built in Unity and developed for Game Design class at the University of Montana.",
+            "URL": "https://github.com/davidrich27/DataOverSata",
+            "Date": "Fall 2017",
+            "_Notes": [],
+            "_Tags": ["Computer Science", "Education"]
+        },
+        {
+            "Name": "AccountAble Project",
+            "Description": "Accouting Software, developed for Software Science class at the University of Montana.",
+            "URL": "https://github.com/davidrich27/DataOverSata",
+            "Date": "Fall 2017",
+            "_Notes": [],
+            "_Tags": ["Business", "Computer Science", "Education"]
+        },
+        {
+            "Name": "RiverHaus Recordings Business Plan",
+            "Description": "Business Plan, developed for John Ruffatto Business Plan Competition.  Our pitch was a finalists in the competition.",
+            "URL": "https://github.com/davidrich27/wed_dev",
+            "Date": "Fall 2018",
+            "_Notes": [],
+            "_Tags": ["Business", "Education"]
+        }
     ],
 
     "Other": [],

@@ -20,6 +20,7 @@
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="interactive_canvas.php">Interactive Canvas</a>
           <a class="dropdown-item" href="noninteractive_canvas.php">Non-Interactive Canvas</a>
+          <a class="dropdown-item" href="data_canvas.php">Data Canvas</a>
           <a class="dropdown-item" href="web_worker.php">Web Worker</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="babylon3d.php">Babylon 3D</a>
