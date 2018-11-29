@@ -13,7 +13,7 @@
                 <li><a href="index.php">Home</a></li>
                 <li><a href="experience.php">Experience</a></li>
                 <li><a href="contact.php">Contact Us</a></li>
-                <li><a href="assignments/hw_01.txt">readme</a></li>
+                <li><a href="assignments/hw_01.odt">readme</a></li>
             </ul>
         </li>
         <li> Homework #2
@@ -29,7 +29,7 @@
                 <li><a href="experience.php">Experience</a></li>
                 <li><a href="contact.php">Contact Us</a></li>
                 <li><a href="register_employer.php">Register Employer</a></li>
-                <li><a href="assignments/hw_03.txt">readme</a></li>
+                <li><a href="assignments/hw_03.odt">readme</a></li>
             </ul>
         </li>
         <li> Homework #4
@@ -37,14 +37,14 @@
                 <li><a href="uninteractive_canvas.php">Non-Interactive Canvas</a></li>
                 <li><a href="interactive_canvas.php">Interactive Canvas</a></li>
                 <li><a href="web_worker.php">Web Worker</a></li>
-                <li><a href="assignments/hw_04.txt">readme</a></li>
+                <li><a href="assignments/hw_04.odt">readme</a></li>
             </ul>
         </li>
         <li> Homework #5
             <ul>
                 <li><a href="babylon3d.php">Babylon 3D</a></li>
                 <li><a href="phaserio.php">Phaser.io</a></li>
-                <li><a href="assignments/hw_05.txt">readme</a></li>
+                <li><a href="assignments/hw_05.odt">readme</a></li>
             </ul>
         </li>
         <li> Homework #6

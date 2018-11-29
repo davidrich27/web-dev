@@ -6,10 +6,12 @@
 
 <main role="main" class="text-center">
 
+    <canvas id="myCanvas"></canvas>
+
 </main><!-- /.container -->
 
 <?php include "template/footer-menu.php"; ?>
 
-<script type="text/javascript" src="script/interactive_canvas.js"></script>
+<script type="text/javascript" src="script/data_display_canvas.js"></script>
 
 <?php include "template/foot.php"; ?>

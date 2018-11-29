@@ -1,4 +1,5 @@
-//
+
+// default web worker skeleton 
 self.addEventListener("message", function(e) {
     // the passed-in data is available via e.data
     var data = e.data
@@ -11,8 +12,6 @@ self.addEventListener("message", function(e) {
       default:
         console.log("No valid command was given.");
     }
-
-
 }, false);
 
 // Get a file contents from url

@@ -5,8 +5,9 @@ img_list = {
     "General": "images/crazy.jpg",
     "Computer Science": "images/info_tech.jpg",
     "Business": "images/business.png",
-    "Education": "images/education.jpeg"
-}
+    "Education": "images/education.jpeg",
+    "Research": "images/research.jpg"
+};
 
 var resume;
 var cookie;
