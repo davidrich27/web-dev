@@ -78,14 +78,12 @@ function outputPokeData(worker_var, data) {
       var r = Math.floor(Math.random() * 255);
       var g = Math.floor(Math.random() * 255);
       var b = Math.floor(Math.random() * 255);
-      console.log('test: '+type_data);
       palette[type] = `rgb(${r},${g},${b})`;
   }
 
   console.log(JSON.stringify(type_data));
 
   drawPieData(type_data);
-  console.log('draw pie');
 
   stopWorker(worker_var);
 }
@@ -98,10 +96,15 @@ function drawPieData(pie_data) {
       width: 600,
       height: 500,
 
+      pos: {
+        x: 0,
+        y: 0
+      },
       center: {
         x:250,
         y:300
       },
+
       radius: 150,
       stroke: 'black',
       fill: 'blue'
@@ -153,9 +156,10 @@ function drawPieData(pie_data) {
       border: 25,
       width: 200,
       height: 500,
+
       margin: 25,
       padding: 25
-    }
+    };
 
     // draw legend
     var leg_border = 25;
