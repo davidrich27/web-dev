@@ -36,6 +36,7 @@
             <ul>
                 <li><a href="uninteractive_canvas.php">Non-Interactive Canvas</a></li>
                 <li><a href="interactive_canvas.php">Interactive Canvas</a></li>
+                <li><a href="data_canvas.php">Data Canvas</a></li>
                 <li><a href="web_worker.php">Web Worker</a></li>
                 <li><a href="assignments/hw_04.odt">readme</a></li>
             </ul>
